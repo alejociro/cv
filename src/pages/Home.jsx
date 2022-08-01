@@ -10,7 +10,7 @@ const Home = () => (
   <main className='bg-white '>
     <Sidebar />
     <div className='lg:ml-[400px] p-10'>
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto flex justify-evenly flex-wrap rounded-xl gap-4 bg-gray-200'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto flex justify-evenly flex-wrap rounded-xl gap-4 bg-gray-200'>
         <h1 className='font-bold'>Desarrolador Full Stack</h1>
         <span className='py-5'>
           Hola!!, soy un desarrollador Web Colombiano, tengo poca experiencia en
@@ -19,7 +19,7 @@ const Home = () => (
           proyectos.
         </span>
       </div>
-      <div className=' divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto flex justify-evenly flex-wrap rounded-xl gap-4 bg-gray-200'>
+      <div className=' divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto flex justify-evenly flex-wrap rounded-xl gap-4 bg-gray-200'>
         <h1 className='font-bold'>Perfil</h1>
         <span className='py-5'>
           Soy una persona con excelentes relaciones interpersonales y habilidad
@@ -30,7 +30,7 @@ const Home = () => (
           valores con los que me siento identificado dentro de la sociedad.
         </span>
       </div>
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Estudios</h1>
         <div className='flex justify-evenly flex-wrap gap-4 mt-5 p-5'>
           <CardEducation
@@ -51,7 +51,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Cursos afines</h1>
         <div className='flex justify-evenly flex-wrap gap-4 mt-5 p-5'>
           <CardRelatedCourse
@@ -63,7 +63,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Lenguajes</h1>
         <div className='flex-w-full justify-evenly flex-wrap gap-4 mt-5 p-5'>
           <BarProgress title='Php - laravel' percentage='100' />
@@ -74,7 +74,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Hobbies</h1>
         <div className='flex justify-evenly flex-wrap gap-4 mt-5 p-5'>
           <ContainerImage title='Ejercicio' url='/statics/gym.jpeg' />
@@ -83,7 +83,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Hobbies</h1>
         <div className='flex justify-evenly flex-wrap gap-4 mt-5 p-5'>
           <ContainerImage title='Ver peliculas' url='/statics/marvel.jpg' />
@@ -92,7 +92,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className='divide-y-4 divide-slate-400/25 ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
+      <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Intereses</h1>
         <div className='flex justify-evenly flex-wrap gap-4 mt-5 p-5'>
           <CardInterest title='Front-end' url='/statics/front.jpg' />
