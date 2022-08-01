@@ -54,10 +54,7 @@ const Home = () => (
       <div className='divide-y-4 divide-slate-400/25 lg:ml-[50px] mb-10 p-4 w-auto rounded-xl bg-gray-200 text-center'>
         <h1 className='font-bold'>Cursos afines</h1>
         <div className='flex justify-evenly flex-wrap gap-4 mt-5 p-5'>
-          <CardRelatedCourse
-            title='Aplicaciones empresariales'
-            date='U de A 2022'
-          />
+          <CardRelatedCourse title='Ingenieria web' date='U de A 2022' />
           <CardRelatedCourse title='Bases de datos' date='U de A 2021' />
           <CardRelatedCourse title='Modelos y simulación' date='U de A 2021' />
         </div>
